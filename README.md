@@ -87,9 +87,15 @@ By the end of the modules, students should be able to:
 21.  Describe how machine learning can be used to classify sounds
 22.  Describe the machine learning operations (MLOps) lifecycle
 
-## Required Hardware
+## Required Hardware and Software
 
 Students will need a computer and Internet access to perform machine learning model training and hands-on exercises with the Edge Impulse Studio and Google Colab. Students are encouraged to use the [Arduino Tiny Machine Learning kit](https://store-usa.arduino.cc/products/arduino-tiny-machine-learning-kit) to practice performing inference on an embedded device.
+
+A Google account is required for [Google Colab](https://colab.research.google.com/).
+
+An Edge Impulse is required for the [Edge Ipmulse Studio](https://edgeimpulse.com/).
+
+Students will need to install the latest [Arduino IDE](https://www.arduino.cc/en/software).
 
 ## Syllabus
 
@@ -106,13 +112,13 @@ This module provides an overview of machine learning and how it can be used to s
 5. Describe the ethical concerns of machine learning
 6. Describe the differences between supervised and unsupervised machine learning
 
-#### Section 1 - Machine Learning on the Edge
+#### Section 1: Machine Learning on the Edge
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 1.1.1 | What is machine learning? | [video](https://www.youtube.com/watch?v=fK8elevliKI&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=3) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40)
+| 1.1.1 | What is machine learning? | [video](https://www.youtube.com/watch?v=fK8elevliKI&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=3) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.2 | Machine learning on embedded devices | [video](https://www.youtube.com/watch?v=Thg_EK9xxVk&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=5) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.3 | What is tiny machine learning? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.3-what-is-tiny-machine-learning.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.4 | TinyML case studies | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.4-tinyml-case-studies.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
@@ -123,9 +129,115 @@ This module provides an overview of machine learning and how it can be used to s
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 1.1.7 | Example assessment questions | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.7-machine-learning-on-the-edge.docx) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.7 | Example assessment questions | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.7-example-assessment-questions.docx) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 2
+#### Section 2: Limitations and Ethics
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 1.2.1 | Limitations and Ethics of Machine Learning | [video](https://www.youtube.com/watch?v=bjR9dwBNTNc&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=4) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.2 | What am I building and what's the goal? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.2-what-am-i-building.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.3 | Who am I building this for? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.3-who-am-i-building-this-for.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.4 | What are the consequences? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.4-what-are-the-consequences.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.5 | The limitations of machine learning | [blog](https://towardsdatascience.com/the-limitations-of-machine-learning-a00e0c3040c6) | |
+| 1.2.6 | The future of AI; bias amplification and algorithm determinism | [blog](https://digileaders.com/future-ai-bias-amplification-algorithmic-determinism/) | |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 1.2.7 | Example assessment questions | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.7-example-assessment-questions.docx) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 3: Getting Started with Colab
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 1.3.1 | Getting Started with Google Colab | [video](https://www.youtube.com/watch?v=inN8seMm7UI) | |
+| 1.3.2 | Introduction to Colab | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.2-intro-to-colab.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.3.3 | Welcome to Colab! | [colab](https://colab.research.google.com/notebooks/intro.ipynb) | |
+| 1.3.4 | Colab tips | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.4-colab-tips.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.3.5 | Why TensorFlow? | [video](https://www.youtube.com/watch?v=yjprpOoH5c8) | |
+| 1.3.6 | Sample TensorFlow code | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.6-sample-tensorflow-code.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 1.3.7 | 101 exercises for Python fundamentals | [colab](https://colab.research.google.com/github/ryanorsinger/101-exercises/blob/main/101-exercises.ipynb) | |
+
+### Module 2: Getting Started with Deep Learning
+
+#### Section 1: Machine Learning Paradigm
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 2: Building Blocks of Deep Learning
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 3: Embedded Machine Learning Challenges
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+
+
+## TEMPLATE
+
+### Module [x]: [name]
+
+#### Section 1: [name]
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 2: [name]
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 3: [name]
 
 ##### Lecture Material
 
