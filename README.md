@@ -172,10 +172,10 @@ This module provides an overview of neural networks and how they can be used to 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.1.8 | Exercise: exploring loss | [colab](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.8-exploring-loss.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.9 | Exercise: minimizing loss | [colab](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.9-minimizing-loss.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-|
-
+| 2.1.8 | Exercise: exploring loss | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.8-exploring-loss.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.9 | Exercise: minimizing loss | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.9-minimizing-loss.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.10 | Exercise: linear regression | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.10-linear-regression.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.11 | Example assessment questions | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.11-example-assessment-questions.docx) [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: Building Blocks of Deep Learning
 
