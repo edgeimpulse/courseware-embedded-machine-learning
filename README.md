@@ -152,8 +152,13 @@ This module provides an overview of neural networks and how they can be used to 
 #### Learning Objectives
 
 1. Provide examples of how machine learning can be used to solve problems (that traditional deterministic programming cannot)
-2. Describe broadly how a mathematical model can be used to generalize trends in data
-3. Explain how the training process results from minimizing a loss function
+2. Provide examples of how embedded machine learning can be used to solve problems (where other forms of machine learning would be limited or inappropriate)
+3. Describe challenges associated with running machine learning algorithms on embedded systems
+4. Describe broadly how a mathematical model can be used to generalize trends in data
+5. Explain how the training process results from minimizing a loss function
+6. Describe why datsets should be broken up into training, validation, and test sets
+7. Explain how overfitting occurs and how to identify it
+8. Demonstrate the ability to train a dense neural network using Keras and TensorFlow
 
 #### Section 1: Machine Learning Paradigm
 
@@ -201,8 +206,8 @@ This module provides an overview of neural networks and how they can be used to 
 | 2.2.9 | Exercise: multi-layer neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.9-multi-layer-neural-network.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 2.2.10 | Exercise: dense neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.10-dense-neural-network.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 2.2.11 | Assignment: explore neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.11-explore-neural-networks.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.12 | Solution: explore neural networks | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.12-solution-explore-neural-networks.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.13 | Example assessment questions | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.13-example-assessment-questions.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.12 | Solution: explore neural networks | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.12-solution-explore-neural-networks.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.13 | Example assessment questions | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.13-example-assessment-questions.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Embedded Machine Learning Challenges
 
@@ -210,12 +215,17 @@ This module provides an overview of neural networks and how they can be used to 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 2.3.1 | Challenges for tiny ML part A | [slides](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.1-challenges-for-tinyml-a.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.2 | Challenges for tiny ML part B | [slides](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.2-challenges-for-tinyml-b.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.3 | Challenges for tiny ML part C | [slides](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.3-challenges-for-tinyml-c.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.4 | Challenges for tiny ML part D | [slides](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.3-challenges-for-tinyml-d.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-
+| 2.3.4 | Example assessment questions | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.4-example-assessment-questions.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 
 ## TEMPLATE
