@@ -147,11 +147,12 @@ This module provides an overview of machine learning and how it can be used to s
 
 ### Module 2: Getting Started with Deep Learning
 
-This module provides an overview of neural networks and how they can be used to make predictions. Simple examples are given in Python (Google Colab) for students to play with and learn from.
+This module provides an overview of neural networks and how they can be used to make predictions. Simple examples are given in Python (Google Colab) for students to play with and learn from. If you do not wish to explore basic machine learning with Keras in Google Colab, you may skip this module to move on to using the Edge Impulse graphical environment. Note that some later exercises rely on Google Colab for curating data, visualizing neural networks, etc.
 
 #### Learning Objectives
 
 1. Provide examples of how machine learning can be used to solve problems (that traditional deterministic programming cannot)
+2. Describe broadly how a mathematical model can be used to generalize trends in data
 
 #### Section 1: Machine Learning Paradigm
 
@@ -159,12 +160,22 @@ This module provides an overview of neural networks and how they can be used to 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.1.1 | Introduction to Colab | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.1-the-machine-learning-paradigm.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.1 | The machine learning paradigm | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.1-the-machine-learning-paradigm.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.2 | Finding patterns | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.2-finding-patterns.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.3 | Thinking about loss | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.3-thinking-about-loss.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.4 | Minimizing loss | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.4-minimizing-loss.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.5 | First neural network | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.5-first-neural-network.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.6 | More neural networks | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.6-more-neural-networks.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.7 | Neural networks in action | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.7-neural-networks-in-action.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 2.1.8 | Exercise: exploring loss | [colab](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.8-exploring-loss.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.9 | Exercise: minimizing loss | [colab](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.9-minimizing-loss.ipynb) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+|
+
 
 #### Section 2: Building Blocks of Deep Learning
 
