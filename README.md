@@ -63,30 +63,6 @@ Students should be familiar with the following topics to complete the example qu
 
 If you find errors or have suggestions about how to make this material better, please let us know! You may [create an issue](https://github.com/edgeimpulse/course-embedded-machine-learning/issues) describing your feedback or [create a pull request](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) if you are familiar with Git.
 
-## Learning Objectives
-
-By the end of the modules, students should be able to:
-
-
-
-
-7. Describe the requirements for collecting a good dataset and what factors can create a biased dataset
-8. Demonstrate the ability to collect a dataset using a variety of sensors (e.g. accelerometer, microphone, camera)
-9. Describe broadly what happens during machine learning model training
-10. Describe the difference between model training and inference
-11. Describe why test and validation datasets are needed
-12. Evaluate a model's performance by calculating accuracy, precision, recall, and F1 scores
-13. Demonstrate the ability to train a machine learning model with a given dataset and evaluate its performance
-14. Demonstrate the ability to perform inference on an embedded system to solve a problem
-15. Provide examples of how anomaly detection with embedded systems can be used to solve problems
-16. Demonstrate the ability to detect anomalies from one or more sensors
-17. Describe the differences between image classification, object detection, and image segmentation
-18. Describe how embedded computer vision can be used to solve problems
-19. Describe how convolution and pooling operations are used to filter and downsample images
-20.  Describe how convolutional neural networks differ from dense neural networks and how they can be used to solve computer vision problems
-21.  Describe how machine learning can be used to classify sounds
-22.  Describe the machine learning operations (MLOps) lifecycle
-
 ## Required Hardware and Software
 
 Students will need a computer and Internet access to perform machine learning model training and hands-on exercises with the Edge Impulse Studio and Google Colab. Students are encouraged to use the [Arduino Tiny Machine Learning kit](https://store-usa.arduino.cc/products/arduino-tiny-machine-learning-kit) to practice performing inference on an embedded device.
@@ -118,8 +94,8 @@ This module provides an overview of machine learning and how it can be used to s
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 1.1.1 | What is machine learning? | [video](https://www.youtube.com/watch?v=fK8elevliKI&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=3) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 1.1.2 | Machine learning on embedded devices | [video](https://www.youtube.com/watch?v=Thg_EK9xxVk&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=5) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.1 | What is machine learning? | [video](https://www.youtube.com/watch?v=fK8elevliKI&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=3) [slides](1.1.1-what-is-machine-learning.pptx) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.2 | Machine learning on embedded devices | [video](https://www.youtube.com/watch?v=Thg_EK9xxVk&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=5) [slides](1.1.2-machine-learning-on-embedded-devices.pptx) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.3 | What is tiny machine learning? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.3-what-is-tiny-machine-learning.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.4 | TinyML case studies | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.4-tinyml-case-studies.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.5 | How do we enable TinyML? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.5-how-do-we-enable-tinyml.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
@@ -137,7 +113,7 @@ This module provides an overview of machine learning and how it can be used to s
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 1.2.1 | Limitations and Ethics of Machine Learning | [video](https://www.youtube.com/watch?v=bjR9dwBNTNc&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=4) [slides](***) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.1 | Limitations and Ethics of Machine Learning | [video](https://www.youtube.com/watch?v=bjR9dwBNTNc&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=4) [slides](1.2.1-limitations-and-ethics.pptx) | [[1]](https://github.com/edgeimpulse/course-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 1.2.2 | What am I building and what's the goal? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.2-what-am-i-building.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.2.3 | Who am I building this for? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.3-who-am-i-building-this-for.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.2.4 | What are the consequences? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.4-what-are-the-consequences.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
@@ -171,12 +147,19 @@ This module provides an overview of machine learning and how it can be used to s
 
 ### Module 2: Getting Started with Deep Learning
 
+This module provides an overview of neural networks and how they can be used to make predictions. Simple examples are given in Python (Google Colab) for students to play with and learn from.
+
+#### Learning Objectives
+
+1. Provide examples of how machine learning can be used to solve problems (that traditional deterministic programming cannot)
+
 #### Section 1: Machine Learning Paradigm
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 2.1.1 | Introduction to Colab | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.1-the-machine-learning-paradigm.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
@@ -212,6 +195,10 @@ This module provides an overview of machine learning and how it can be used to s
 ## TEMPLATE
 
 ### Module [x]: [name]
+
+[description]
+
+#### Learning Objectives
 
 #### Section 1: [name]
 
