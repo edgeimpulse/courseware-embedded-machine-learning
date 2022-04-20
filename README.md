@@ -220,13 +220,69 @@ This module provides an overview of neural networks and how they can be used to 
 | 2.3.3 | Challenges for tiny ML part C | [slides](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.3-challenges-for-tinyml-c.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 2.3.4 | Challenges for tiny ML part D | [slides](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.3-challenges-for-tinyml-d.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
-
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 2.3.4 | Example assessment questions | [doc](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.4-example-assessment-questions.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
+### Module 3: Machine Learning Workflow
+
+In this module, students will get an understanding of how data is collected and used to train a machine learning model. They will have the opportunity to collect their own dataset, upload it to Edge Impulse, and train a model using the graphical interface. From there, they will learn how to evaluate a model using a confusion matrix to calculate precision, recall, accuracy, and F1 scores.
+
+#### Learning Objectives
+
+1. Provide examples of how embedded machine learning can be used to solve problems (where other forms of machine learning would be limited or inappropriate)
+2. Describe challenges associated with running machine learning algorithms on embedded systems
+3. Describe why datsets should be broken up into training, validation, and test sets
+4. Explain how overfitting occurs and how to identify it
+5. Describe broadly what happens during machine learning model training
+6. Describe the difference between model training and inference
+7. Describe why test and validation datasets are needed
+8. Evaluate a model's performance by calculating accuracy, precision, recall, and F1 scores
+9. Demonstrate the ability to train a machine learning model with a given dataset and evaluate its performance
+
+#### Section 1: Machine Learning Worflow
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 3.1.1 | Tiny ML applications | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.1-tinyml-applications.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.2 | The role of sensors in tiny ML | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.2-role-of-sensors.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.3 | The machine learning lifecycle | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.3-machine-learning-lifecycle.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.4 | The machine learning lifecycle | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.4-machine-learning-lifecycle.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.5 | The machine learning lifecycle | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.5-machine-learning-workflow.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 3.1.6 | Example assessment questions |  [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.6-example-assessment-questions.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 2: [name]
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 3: [name]
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
 
 ## TEMPLATE
 
