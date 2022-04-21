@@ -73,6 +73,31 @@ An Edge Impulse is required for the [Edge Ipmulse Studio](https://edgeimpulse.co
 
 Students will need to install the latest [Arduino IDE](https://www.arduino.cc/en/software).
 
+## Preexisting Datasets and Projects
+
+This is a collection of preexisting datasets, Edge Impulse projects, or curation tools to help you get started with your own edge machine learning projects. With a public Edge Impulse project, note that you can clone the project to your account and/or download the dataset from the Dashboard.
+
+### Motion
+
+* [Edge Impulse continuous gesture (idle, snake, up-down, wave) dataset](https://docs.edgeimpulse.com/docs/pre-built-datasets/continuous-gestures)
+* [Alternate motion (idle, up-down, left-right, circle) project](https://studio.edgeimpulse.com/public/76063/latest)
+
+### Sound
+
+* [Running faucet dataset](https://docs.edgeimpulse.com/docs/pre-built-datasets/running-faucet)
+* [Google speech commands dataset](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz)
+* [Keyword spotting dataset curation and augmentation script](https://github.com/ShawnHymel/ei-keyword-spotting/blob/master/ei-audio-dataset-curation.ipynb)
+
+### Image Classification
+
+* [Electronic components dataset](https://github.com/ShawnHymel/computer-vision-with-embedded-machine-learning/blob/master/Datasets/electronic-components-png.zip?raw=true)
+* [Image data augmentation script](https://github.com/ShawnHymel/computer-vision-with-embedded-machine-learning/blob/master/2.3.5%20-%20Project%20-%20Data%20Augmentation/solution_image_data_augmentation.ipynb)
+
+### Object Detection
+
+* [Face detection project](https://studio.edgeimpulse.com/public/87291/latest)
+
+
 ## Syllabus
 
 ### Module 1: Machine Learning on the Edge
@@ -260,7 +285,52 @@ In this module, students will get an understanding of how data is collected and 
 |----|-------------|:-----:|:-----------:|
 | 3.1.6 | Example assessment questions |  [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.1.6-example-assessment-questions.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 2: [name]
+#### Section 2: Data Collection
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 3.2.1 | Introduction to data engineering | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.1.introduction-to-data-engineering.3.docx) | [[3]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.2 | What is data engineering | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.2.what-is-data-engineering.3.pptx) | [[3]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.3 | Using existing datasets | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.3.using-existing-datasets.3.pptx) | [[3]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.4 | Responsible data collection | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.4.responsible-data-collection.3.pptx) | [[3]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.5 | Getting started with edge impulse | [video](https://www.youtube.com/watch?v=lVr4pGeSQKg&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=8) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.5.getting-started-with-edge-impulse.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.6 | Data collection with edge impulse | [video](https://www.youtube.com/watch?v=IiJKqHRRuD4&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=9) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.6.data-collection-with-edge-impulse.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 3.2.7 | Example assessment questions | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.2.7.example-assessment-questions.1.docx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 3: Model Training and Evaluation
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 3.3.1 | Feature extraction from motion data | [video](https://www.youtube.com/watch?v=oDFxBjcvrQU&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=10) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.1.feature-extraction-from-motion-data.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.2 | Feature selection in Edge Impulse |  [video](https://www.youtube.com/watch?v=xQ3GBkYhXcU&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=11) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.3 | Machine learning pipeline | [video](https://www.youtube.com/watch?v=Cf1SL-EeQOQ&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=12) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.3.machine-learning-pipeline.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.4 | Model training in edge impulse | [video](https://www.youtube.com/watch?v=44v2e6JktbE&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=15) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.4.model-training-in-edge-impulse.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.5 | How to evaluate a model | [video](https://www.youtube.com/watch?v=jUiyXCwauJA&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=16) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.5.how-to-evaluate-a-model.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.6 | Underfitting and overfitting | [video](https://www.youtube.com/watch?v=6zExT6TucZg&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=17) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.6.underfitting-and-overfitting.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 3.3.7 | Motion detection project | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.7.motion-detection-project.1.docx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.8 | Example assessment questions | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.8.example-assessment-questions.1.docx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+### Module 4: Model Deployment
+
+This module covers why quantization is important for models running on embedded systems and some of the limitations. It also shows how to use a model for inference and set an appropriate threshold to minimize false positives or false negatives, depending on the system requirements. Finally, it covers the steps to deploy a model trained on Edge Impulse to an Arduino board.
+
+#### Learning Objectives
+
+#### Section 1: Quantization
 
 ##### Lecture Material
 
@@ -272,7 +342,19 @@ In this module, students will get an understanding of how data is collected and 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 
-#### Section 3: [name]
+#### Section 2: Live Inference
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 3: Using the Edge Impulse Arduino Library
 
 ##### Lecture Material
 
