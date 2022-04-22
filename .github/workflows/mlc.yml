@@ -1,4 +1,4 @@
-name: Push checks
+name: Markdown link check
 
 # When this workflow triggers
 on:

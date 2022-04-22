@@ -1,6 +1,6 @@
 # Embedded Machine Learning Courserware
 
-[![GitHub Actions Status Badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/push/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/push.yml)
+[![Markdown link check status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/mlc.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/push.yml)
 
 Welcome to the Edge Impulse open courseware for embedded machine learing! This repository houses a collection of slides, reading material, project prompts, and sample questions to get you started creating your own embedded machine learning course. You will also have access to videos that cover much of the material. You are welcome to share these videos with your class either in the classroom or let students watch them on their own time.
 
@@ -64,6 +64,8 @@ Students should be familiar with the following topics to complete the example qu
 ## Feedback
 
 If you find errors or have suggestions about how to make this material better, please let us know! You may [create an issue](https://github.com/edgeimpulse/course-embedded-machine-learning/issues) describing your feedback or [create a pull request](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) if you are familiar with Git.
+
+This repo uses automatic link checking and spell checking. If continuous integration (CI) fails after a push, you may find the dead links or misspelled words, fix them, and push again to re-trigger CI. If dead links or misspelled words are false positives (i.e. purposely malformed link or proper noun), you may update mlc_config.json for links to ignore or %%% for words to ignore.
 
 ## Required Hardware and Software
 
