@@ -18,7 +18,7 @@ The YouTube videos in this repository are shared via the standard YouTube licens
 
 Much of the material found in this repository is curated from a collection of online courses with permission from the original creators. You are welcome to take the courses (as professional development) to learn the material in a guided fashion or refer students to the courses for additional learning opportunities.
 
- * [Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning) - Coursera course by Edge Impulse that introduces neural networks and deep learning conceps and applies them to embedded systems. Hands-on projects rely on training and deploying machine learning models with Edge Impulse. Free with optional paid certificate.
+ * [Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning) - Coursera course by Edge Impulse that introduces neural networks and deep learning concepts and applies them to embedded systems. Hands-on projects rely on training and deploying machine learning models with Edge Impulse. Free with optional paid certificate.
  * [Copmuter Vision with Embedded Machine Learning](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning) - Follow-on Coursera course that covers image classification and object detection using convolutional neural networks. Hands-on projects rely on training and deploying models with Edge Impulse. Free with optional paid certificate.
  * [Tiny Machine Learing (TinyML)](https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning) - EdX course by [Vijay Reddi](https://scholar.harvard.edu/vijay-janapa-reddi), [Laurence Moroney](https://laurencemoroney.com/), [Pete Warden](https://petewarden.com/), and [Lara Suzuki](https://larissasuzuki.com/). Hands-on projects rely on Python code in Google Colab to train and deploy models to embedded systems with TensorFlow Lite for Microcontrollers. Paid course.
 
@@ -128,7 +128,7 @@ This module provides an overview of machine learning and how it can be used to s
 | 1.1.3 | What is tiny machine learning? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.3-what-is-tiny-machine-learning.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.4 | TinyML case studies | [doc](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.4-tinyml-case-studies.docx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.5 | How do we enable TinyML? | [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.5-how-do-we-enable-tinyml.pptx) | [[3]](https://github.com/edgeimpulse/course-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 1.1.6 | Why the future of mahcine learning is tiny and bright | [blog](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/) | |
+| 1.1.6 | Why the future of machine learning is tiny and bright | [blog](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/) | |
 
 ##### Exercises and Problems
 
@@ -271,7 +271,7 @@ In this module, students will get an understanding of how data is collected and 
 8. Evaluate a model's performance by calculating accuracy, precision, recall, and F1 scores
 9. Demonstrate the ability to train a machine learning model with a given dataset and evaluate its performance
 
-#### Section 1: Machine Learning Worflow
+#### Section 1: Machine Learning Workflow
 
 ##### Lecture Material
 
