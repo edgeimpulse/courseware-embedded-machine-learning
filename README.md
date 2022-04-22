@@ -1,6 +1,6 @@
 # Embedded Machine Learning Courseware
 
-[![Markdown link check status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml) [![Spellcheck status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/spellcheck.yml)
+[![Markdown link check status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml) [![Markdown linter status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mdl.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mdl.yml) [![Spellcheck status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/spellcheck.yml)
 
 Welcome to the Edge Impulse open courseware for embedded machine learning! This repository houses a collection of slides, reading material, project prompts, and sample questions to get you started creating your own embedded machine learning course. You will also have access to videos that cover much of the material. You are welcome to share these videos with your class either in the classroom or let students watch them on their own time.
 
@@ -18,23 +18,23 @@ The YouTube videos in this repository are shared via the standard YouTube licens
 
 Much of the material found in this repository is curated from a collection of online courses with permission from the original creators. You are welcome to take the courses (as professional development) to learn the material in a guided fashion or refer students to the courses for additional learning opportunities.
 
- * [Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning) - Coursera course by Edge Impulse that introduces neural networks and deep learning concepts and applies them to embedded systems. Hands-on projects rely on training and deploying machine learning models with Edge Impulse. Free with optional paid certificate.
- * [Copmuter Vision with Embedded Machine Learning](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning) - Follow-on Coursera course that covers image classification and object detection using convolutional neural networks. Hands-on projects rely on training and deploying models with Edge Impulse. Free with optional paid certificate.
- * [Tiny Machine Learing (TinyML)](https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning) - EdX course by [Vijay Reddi](https://scholar.harvard.edu/vijay-janapa-reddi), [Laurence Moroney](https://laurencemoroney.com/), [Pete Warden](https://petewarden.com/), and [Lara Suzuki](https://larissasuzuki.com/). Hands-on projects rely on Python code in Google Colab to train and deploy models to embedded systems with TensorFlow Lite for Microcontrollers. Paid course.
+* [Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning) - Coursera course by Edge Impulse that introduces neural networks and deep learning concepts and applies them to embedded systems. Hands-on projects rely on training and deploying machine learning models with Edge Impulse. Free with optional paid certificate.
+* [Copmuter Vision with Embedded Machine Learning](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning) - Follow-on Coursera course that covers image classification and object detection using convolutional neural networks. Hands-on projects rely on training and deploying models with Edge Impulse. Free with optional paid certificate.
+* [Tiny Machine Learing (TinyML)](https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning) - EdX course by [Vijay Reddi](https://scholar.harvard.edu/vijay-janapa-reddi), [Laurence Moroney](https://laurencemoroney.com/), [Pete Warden](https://petewarden.com/), and [Lara Suzuki](https://larissasuzuki.com/). Hands-on projects rely on Python code in Google Colab to train and deploy models to embedded systems with TensorFlow Lite for Microcontrollers. Paid course.
 
 ## Prerequisites
 
 Students should be familiar with the following topics to complete the example questions and hands-on assignments:
 
 * **Algebra**
-   * Solving linear equations
+  * Solving linear equations
 * **Probability and Statistics**
-   * Expressing probabilities of independent events
-   * Normal distributions
-   * Mean and median
+  * Expressing probabilities of independent events
+  * Normal distributions
+  * Mean and median
 * **Programming**
-   * Arduino/C++ programming (conditionals, loops, arrays/buffers, pointers, functions)
-   * Python programming (conditionals, loops, arrays, functions, NumPy)
+  * Arduino/C++ programming (conditionals, loops, arrays/buffers, pointers, functions)
+  * Python programming (conditionals, loops, arrays, functions, NumPy)
 
 *Optional prerequisites*: many machine learning concepts can be quite advanced. While these advanced topics are briefly discussed in the slides and videos, they are not required for quiz questions and hands-on projects. If you would like to dig deeper into such concepts in your course, students may need to be familiar with the following:
 
@@ -100,7 +100,6 @@ This is a collection of preexisting datasets, Edge Impulse projects, or curation
 ### Object Detection
 
 * [Face detection project](https://studio.edgeimpulse.com/public/87291/latest)
-
 
 ## Syllabus
 
@@ -185,7 +184,7 @@ This module provides an overview of neural networks and how they can be used to 
 3. Describe challenges associated with running machine learning algorithms on embedded systems
 4. Describe broadly how a mathematical model can be used to generalize trends in data
 5. Explain how the training process results from minimizing a loss function
-6. Describe why datsets should be broken up into training, validation, and test sets
+6. Describe why datasets should be broken up into training, validation, and test sets
 7. Explain how overfitting occurs and how to identify it
 8. Demonstrate the ability to train a dense neural network using Keras and TensorFlow
 
@@ -263,7 +262,7 @@ In this module, students will get an understanding of how data is collected and 
 
 1. Provide examples of how embedded machine learning can be used to solve problems (where other forms of machine learning would be limited or inappropriate)
 2. Describe challenges associated with running machine learning algorithms on embedded systems
-3. Describe why datsets should be broken up into training, validation, and test sets
+3. Describe why datasets should be broken up into training, validation, and test sets
 4. Explain how overfitting occurs and how to identify it
 5. Describe broadly what happens during machine learning model training
 6. Describe the difference between model training and inference
@@ -418,6 +417,8 @@ This module covers why quantization is important for models running on embedded 
 
 ## Attribution
 
-##### [1] Slides and written material for "[Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)" by [Edge Impulse](https://edgeimpulse.com/) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-##### [2] Slides and written material for "[Computer Vision with Embedded Machine Learning](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning)" by [Edge Impulse](https://edgeimpulse.com/) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-##### [3] Slides and written material for "[TinyML Courseware](https://github.com/tinyMLx/courseware)" by [TinyMLx](https://github.com/tinyMLx) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+### [1] Slides and written material for "[Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)" by [Edge Impulse](https://edgeimpulse.com/) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### [2] Slides and written material for "[Computer Vision with Embedded Machine Learning](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning)" by [Edge Impulse](https://edgeimpulse.com/) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### [3] Slides and written material for "[TinyML Courseware](https://github.com/tinyMLx/courseware)" by [TinyMLx](https://github.com/tinyMLx) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)

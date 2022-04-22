@@ -24,3 +24,5 @@ TinyML
 overfitting
 underfitting
 repo
+spectrogram
+lifecycle
