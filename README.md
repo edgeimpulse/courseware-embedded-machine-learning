@@ -1,5 +1,7 @@
 # Embedded Machine Learning Courserware
 
+[![GitHub Actions Status Badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/push/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/workflows/push.yml)
+
 Welcome to the Edge Impulse open courseware for embedded machine learing! This repository houses a collection of slides, reading material, project prompts, and sample questions to get you started creating your own embedded machine learning course. You will also have access to videos that cover much of the material. You are welcome to share these videos with your class either in the classroom or let students watch them on their own time.
 
 Please note that the content in this repository is not inteded to be a full semester-long course. Rather, you are encouraged to pull from the modules, rearrange the ordering, make modifications, and use as you see fit to integrate the content into your own curriculum.
@@ -311,7 +313,7 @@ In this module, students will get an understanding of how data is collected and 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 3.3.1 | Feature extraction from motion data | [video](https://www.youtube.com/watch?v=oDFxBjcvrQU&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=10) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.1.feature-extraction-from-motion-data.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 3.3.2 | Feature selection in Edge Impulse |  [video](https://www.youtube.com/watch?v=xQ3GBkYhXcU&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=11) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.2 | Feature selection in Edge Impulse |  [video](https://www.youtube.com/watch?v=xQ3GBkYhXcU&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=11) [tutorial](https://docs.edgeimpulse.com/docs/tutorials/continuous-motion-recognition) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 3.3.3 | Machine learning pipeline | [video](https://www.youtube.com/watch?v=Cf1SL-EeQOQ&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=12) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.3.machine-learning-pipeline.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 3.3.4 | Model training in edge impulse | [video](https://www.youtube.com/watch?v=44v2e6JktbE&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=15) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.4.model-training-in-edge-impulse.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 3.3.5 | How to evaluate a model | [video](https://www.youtube.com/watch?v=jUiyXCwauJA&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=16) [slides](https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/Module%203%20-%20Machine%20Learning%20Workflow/3.3.5.how-to-evaluate-a-model.1.pptx) | [[1]](https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
@@ -329,6 +331,8 @@ In this module, students will get an understanding of how data is collected and 
 This module covers why quantization is important for models running on embedded systems and some of the limitations. It also shows how to use a model for inference and set an appropriate threshold to minimize false positives or false negatives, depending on the system requirements. Finally, it covers the steps to deploy a model trained on Edge Impulse to an Arduino board.
 
 #### Learning Objectives
+
+1. 
 
 #### Section 1: Quantization
 
