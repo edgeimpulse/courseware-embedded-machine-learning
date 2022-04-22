@@ -1,6 +1,6 @@
 # Embedded Machine Learning Courserware
 
-[![Markdown link check status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml?query=workflow%3A%22Markdown%20link%20check%22)
+[![Markdown link check status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml?query=workflow%3A%22Markdown%20link%20check%22) [![Spellcheck status badge](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/edgeimpulse/courseware-embedded-machine-learning/actions/workflows/mlc.yml?query=workflow%3ASpellcheck)
 
 Welcome to the Edge Impulse open courseware for embedded machine learing! This repository houses a collection of slides, reading material, project prompts, and sample questions to get you started creating your own embedded machine learning course. You will also have access to videos that cover much of the material. You are welcome to share these videos with your class either in the classroom or let students watch them on their own time.
 
