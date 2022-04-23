@@ -26,11 +26,12 @@ __version__ = "1.0"
 # Settings
 
 absolute_paths = False      # True to append repo_url to every link
-repo_url = "https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/"
+repo_url = "https://github.com/edgeimpulse/courseware-embedded-machine-learning/"
+raw_url = "raw/main/"
 attr_urls = [
-    "https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
-    "https://github.com/edgeimpulse/courseware-embedded-machine-learning#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
-    "https://github.com/edgeimpulse/courseware-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40"
+    "#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
+    "#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
+    "#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40"
 ]
 
 ################################################################################
@@ -78,7 +79,7 @@ for f in filenames:
     # Construct link based on file type
     link = ""
     if absolute_paths:
-        link = repo_url
+        link = repo_url + raw_url
     link = link + dir_path + '/' + f
     link = link.replace(' ', '%20')
     if parsed[5] == 'docx':
@@ -96,7 +97,11 @@ for f in filenames:
         exit()
     attr = int(attr)
     if (attr > 0) and (attr <= len(attr_urls)):
-        attr = "[[" + str(attr) + "]](" + attr_urls[attr - 1] + ")"
+        attr_url = ""
+        if absolute_paths:
+            attr_url = repo_url
+        attr_url = attr_url + attr_urls[attr - 1]
+        attr = "[[" + str(attr) + "]](" + attr_url + ")"
     else:
         attr = ""
     
