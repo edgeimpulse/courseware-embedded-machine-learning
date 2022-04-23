@@ -28,6 +28,7 @@ __version__ = "1.0"
 absolute_paths = False      # True to append repo_url to every link
 repo_url = "https://github.com/edgeimpulse/courseware-embedded-machine-learning/"
 raw_url = "raw/main/"
+raw_append = "?raw=true"
 attr_urls = [
     "#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
     "#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
@@ -77,10 +78,11 @@ for f in filenames:
     desc = parsed[3].replace('-', ' ').capitalize()
     
     # Construct link based on file type
-    link = ""
+    link = dir_path + '/' + f
     if absolute_paths:
-        link = repo_url + raw_url
-    link = link + dir_path + '/' + f
+        link = repo_url + raw_url + link
+    else:
+        link = link + raw_append
     link = link.replace(' ', '%20')
     if parsed[5] == 'docx':
         link = "[doc](" + link + ")"
