@@ -25,14 +25,13 @@ __version__ = "1.0"
 ################################################################################
 # Settings
 
+absolute_paths = False      # True to append repo_url to every link
 repo_url = "https://github.com/edgeimpulse/course-embedded-machine-learning/raw/main/"
 attr_urls = [
     "https://github.com/edgeimpulse/courseware-embedded-machine-learning#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
     "https://github.com/edgeimpulse/courseware-embedded-machine-learning#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
     "https://github.com/edgeimpulse/courseware-embedded-machine-learning#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40"
 ]
-
-
 
 ################################################################################
 # Main
@@ -41,18 +40,26 @@ attr_urls = [
 parser = argparse.ArgumentParser(description="Script that looks through "
             "filenames in given directory and auto-generates markdown "
             "tables and links")
-parser.add_argument('-d',
+group = parser.add_mutually_exclusive_group()
+group.add_argument('-d',
                    '--directory',
                    action='store',
                    dest='dir_path',
                    type=str,
-                   required=True,
                    help="Directory containing the files you want to list in "
                         "the table.")
+group.add_argument('directory', nargs='?')
 
 # Parse the arguments
 args = parser.parse_args()
-dir_path = args.dir_path
+dir_path = ""
+if args.dir_path:
+    dir_path = args.dir_path
+elif args.directory:
+    dir_path = args.directory
+else:
+    print("ERROR: no directory given")
+    exit()
 
 # Get files in directory (ignore subdirectories)
 filenames = []
@@ -69,7 +76,10 @@ for f in filenames:
     desc = parsed[3].replace('-', ' ').capitalize()
     
     # Construct link based on file type
-    link = repo_url + dir_path + '/' + f
+    link = ""
+    if absolute_paths:
+        link = repo_url
+    link = link + dir_path + '/' + f
     link = link.replace(' ', '%20')
     if parsed[5] == 'docx':
         link = "[doc](" + link + ")"
