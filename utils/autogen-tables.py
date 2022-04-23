@@ -15,6 +15,7 @@ License: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
 
 import argparse
 import os
+import re
 
 # Authorship
 __author__ = "Shawn Hymel"
@@ -34,6 +35,9 @@ attr_urls = [
     "#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40",
     "#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40"
 ]
+
+################################################################################
+# Functions
 
 ################################################################################
 # Main
@@ -69,15 +73,19 @@ for f in os.listdir(dir_path):
     if os.path.isfile(os.path.join(dir_path, f)):
         filenames.append(f)
 
+# Split filenames and sort based on ID number
+filenames_split = [f.split('.') for f in filenames]
+filenames_split.sort(key=lambda x: (int(x[0]), int(x[1]), int(x[2])))
+
 # Go through files
-for f in filenames:
+for parsed in filenames_split:
 
     # Get ID and description
-    parsed = f.split('.')
     id = str(parsed[0]) + "." + str(parsed[1]) + "." + str(parsed[2])
     desc = parsed[3].replace('-', ' ').capitalize()
     
     # Construct link based on file type
+    f = '.'.join(parsed)
     link = dir_path + '/' + f
     if absolute_paths:
         link = repo_url + raw_url + link
@@ -88,6 +96,8 @@ for f in filenames:
         link = "[doc](" + link + ")"
     elif parsed[5] == 'pptx':
         link = "[slides](" + link + ")"
+    elif parsed[5] == 'ipynb':
+        link = "[colab](" + link + ")"
     else:
         print("ERROR: Unsupported file type: " + f)
         exit()
