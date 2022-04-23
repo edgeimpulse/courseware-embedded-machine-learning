@@ -28,6 +28,7 @@ __version__ = "1.0"
 
 absolute_paths = False      # True to append repo_url to every link
 repo_url = "https://github.com/edgeimpulse/courseware-embedded-machine-learning/"
+colab_url = "https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/"
 raw_url = "raw/main/"
 raw_append = "?raw=true"
 attr_urls = [
@@ -87,16 +88,23 @@ for parsed in filenames_split:
     # Construct link based on file type
     f = '.'.join(parsed)
     link = dir_path + '/' + f
-    if absolute_paths:
-        link = repo_url + raw_url + link
-    else:
-        link = link + raw_append
-    link = link.replace(' ', '%20')
     if parsed[5] == 'docx':
+        if absolute_paths:
+            link = repo_url + raw_url + link
+        else:
+            link = link + raw_append
+        link = link.replace(' ', '%20')
         link = "[doc](" + link + ")"
     elif parsed[5] == 'pptx':
+        if absolute_paths:
+            link = repo_url + raw_url + link
+        else:
+            link = link + raw_append
+        link = link.replace(' ', '%20')
         link = "[slides](" + link + ")"
     elif parsed[5] == 'ipynb':
+        link = colab_url + link
+        link = link.replace(' ', '%20')
         link = "[colab](" + link + ")"
     else:
         print("ERROR: Unsupported file type: " + f)
