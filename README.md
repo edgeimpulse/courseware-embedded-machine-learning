@@ -398,6 +398,48 @@ This module covers why quantization is important for models running on embedded 
 |----|-------------|:-----:|:-----------:|
 | 4.3.5 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.3.5.example-assessment-questions.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
+### Module 5: Anomaly Detection
+
+[description]
+
+#### Learning Objectives
+
+#### Section 1: Anomaly Detection and K-means Clustering
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 2: Autoencoders
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+#### Section 3: Anomaly Detection in Edge Impulse
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+
 ## TEMPLATE
 
 ### Module [x]: [name]
