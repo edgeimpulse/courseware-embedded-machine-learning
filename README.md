@@ -6,6 +6,8 @@ Welcome to the Edge Impulse open courseware for embedded machine learning! This 
 
 Please note that the content in this repository is not intended to be a full semester-long course. Rather, you are encouraged to pull from the modules, rearrange the ordering, make modifications, and use as you see fit to integrate the content into your own curriculum.
 
+For example, many of the lectures and examples from the TinyML Courseware (given by [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40)) go into detail about how TensorFlow Lite works along with advanced topics like quantization. Feel free to skip those sections if you would just like an overview of embedded machine learning and how to use it with Edge Impulse.
+
 Content is divided into separate *modules*. Each module is assumed to be about a week's worth of material, and each section within a module contains about 60 minutes of presentation material. Modules also contain example quiz/test questions, practice problems, and hands-on assignments.
 
 ## License
@@ -332,7 +334,11 @@ This module covers why quantization is important for models running on embedded 
 
 #### Learning Objectives
 
-1. 
+1. Provide examples of how embedded machine learning can be used to solve problems (where other forms of machine learning would be limited or inappropriate)
+2. Describe challenges associated with running machine learning algorithms on embedded systems
+3. Describe broadly what happens during machine learning model training
+4. Describe the difference between model training and inference
+5. Demonstrate the ability to perform inference on an embedded system to solve a problem
 
 #### Section 1: Quantization
 
@@ -340,35 +346,57 @@ This module covers why quantization is important for models running on embedded 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 4.1.1 | Why quantization | [doc](Module%204%20-%20Model%20Deployment/4.1.1.why-quantization.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.2 | Post-training quantization | [slides](Module%204%20-%20Model%20Deployment/4.1.2.post-training-quantization.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.3 | Quantization-aware training | [slides](Module%204%20-%20Model%20Deployment/4.1.3.quantization-aware-training.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.4 | TensorFlow vs TensorFlow Lite | [slides](Module%204%20-%20Model%20Deployment/4.1.4.tensorflow-vs-tensorflow-lite.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.5 | TensorFlow computational graph | [doc](Module%204%20-%20Model%20Deployment/4.1.5.tensorflow-computational-graph.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 4.1.6 | Post-training quantization | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%204%20-%20Model%20Deployment/4.1.6.post-training-quantization.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.7 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.1.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 2: Live Inference
+#### Section 2: Embedded Microcontrollers
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 4.2.1 | Embedded systems | [slides](Module%204%20-%20Model%20Deployment/4.2.1.embedded-systems.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.2 | Diversity of embedded systems | [doc](Module%204%20-%20Model%20Deployment/4.2.2.diversity-of-embedded-systems.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.3 | Embedded computing hardware | [slides](Module%204%20-%20Model%20Deployment/4.2.3.embedded-computing-hardware.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.4 | Embedded microcontrollers | [doc](Module%204%20-%20Model%20Deployment/4.2.4.embedded-microcontrollers.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.5 | TinyML kit peripherals | [doc](Module%204%20-%20Model%20Deployment/4.2.5.tinyml-kit-peripherals.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.6 | TinyML kit peripherals | [slides](Module%204%20-%20Model%20Deployment/4.2.6.tinyml-kit-peripherals.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.7 | Arduino core, frameworks, mbedOS, and bare metal | [doc](Module%204%20-%20Model%20Deployment/4.2.7.arduino-core-frameworks-mbedos-and-bare-metal.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.8 | Embedded ML software | [slides](Module%204%20-%20Model%20Deployment/4.2.8.embedded-ml-software.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 4.2.8 | Embedded ml software | [slides](Module%204%20-%20Model%20Deployment/4.2.8.embedded-ml-software.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.9 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.2.9.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 3: Using the Edge Impulse Arduino Library
+#### Section 3: Deploying a Model to an Arduino Board
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 4.3.1 | Using a model for inference | [video](https://www.youtube.com/watch?v=UKeZFIqMk2U&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=18) [slides](Module%204%20-%20Model%20Deployment/4.3.1.using-a-model-for-inference.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 4.3.2 | Testing inference with a smartphone | [video](https://www.youtube.com/watch?v=OWakb-oDAOg&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=19) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 4.3.3 | Deploy model to arduino | [video](https://www.youtube.com/watch?v=uUh61R8Hu0o&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=20) [slides](Module%204%20-%20Model%20Deployment/4.3.3.deploy-model-to-arduino.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 4.3.4 | Deploy model to Arduino | [tutorial](https://docs.edgeimpulse.com/docs/tutorials/running-your-impulse-locally/running-your-impulse-arduino) | |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 4.3.5 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.3.5.example-assessment-questions.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ## TEMPLATE
 
