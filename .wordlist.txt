@@ -27,3 +27,7 @@ repo
 spectrogram
 lifecycle
 mbedos
+autoencoder
+autoencoders
+jupyter
+mimii
