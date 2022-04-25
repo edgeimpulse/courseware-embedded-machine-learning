@@ -8,6 +8,8 @@ Please note that the content in this repository is not intended to be a full sem
 
 For example, many of the lectures and examples from the TinyML Courseware (given by [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40)) go into detail about how TensorFlow Lite works along with advanced topics like quantization. Feel free to skip those sections if you would just like an overview of embedded machine learning and how to use it with Edge Impulse.
 
+In general, content from [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) cover theory and hands-on Python coding with Jupyter Notebooks to demonstrate these concepts. Content from [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) and [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) cover hands-on demonstrations and projects using Edge Impulse to deploy machine learning models to embedded systems.
+
 Content is divided into separate *modules*. Each module is assumed to be about a week's worth of material, and each section within a module contains about 60 minutes of presentation material. Modules also contain example quiz/test questions, practice problems, and hands-on assignments.
 
 ## License
@@ -234,8 +236,8 @@ This module provides an overview of neural networks and how they can be used to 
 | 2.2.8 | Neurons in action | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.8.neurons-in-action.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 2.2.9 | Multi layer neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.9.multi-layer-neural-network.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 2.2.10 | Dense neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.10.dense-neural-network.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.11 | Explore neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.11.explore-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.12 | Solution explore neural networks | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.12.solution-explore-neural-networks.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.11 | Challenge: explore neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.11.challenge-explore-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.12 | Solution: explore neural networks | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.12.solution-explore-neural-networks.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 | 2.2.13 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.13.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Embedded Machine Learning Challenges
@@ -400,33 +402,56 @@ This module covers why quantization is important for models running on embedded 
 
 ### Module 5: Anomaly Detection
 
-[description]
+This module describes several approaches to anomaly detection and why we might want to use it in embedded machine learning.
 
 #### Learning Objectives
 
-#### Section 1: Anomaly Detection and K-means Clustering
+1. Provide examples of how embedded machine learning can be used to solve problems (where other forms of machine learning would be limited or inappropriate)
+2. Describe challenges associated with running machine learning algorithms on embedded systems
+3. Describe broadly what happens during machine learning model training
+4. Describe the difference between model training and inference
+5. Demonstrate the ability to perform inference on an embedded system to solve a problem
+6. Describe how anomaly detection can be used to solve problems
+
+#### Section 1: Introduction to Anomaly Detection
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 5.1.1 | Introduction to anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.1.1.introduction-to-anomaly-detection.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.2 | What is anomaly detection? | [slides](Module%205%20-%20Anomaly%20Detection/5.1.2.what-is-anomaly-detection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.3 | Challenges with anomaly detection | [slides](Module%205%20-%20Anomaly%20Detection/5.1.3.challenges-with-anomaly-detection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.4 | Industry and TinyML | [doc](Module%205%20-%20Anomaly%20Detection/5.1.4.industry-and-tinyml.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.5 | Anomaly detection datasets | [slides](Module%205%20-%20Anomaly%20Detection/5.1.5.anomaly-detection-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.6 | MIMII dataset paper | [doc](Module%205%20-%20Anomaly%20Detection/5.1.6.mimii-dataset-paper.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.7 | Real and synthetic data | [doc](Module%205%20-%20Anomaly%20Detection/5.1.7.real-and-synthetic-data.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 5.1.8 | Example assessment questions | [doc](Module%205%20-%20Anomaly%20Detection/5.1.8.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 2: Autoencoders
+#### Section 2: K-means Clustering and Autoencoders
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 5.2.1 | K-means clustering | [slides](Module%205%20-%20Anomaly%20Detection/5.2.1.k-means-clustering.0.pptx?raw=true) |  |
+| 5.2.2 | Autoencoders | [slides](Module%205%20-%20Anomaly%20Detection/5.2.2.autoencoders.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.3 | Autoencoder model architecture | [doc](Module%205%20-%20Anomaly%20Detection/5.2.3.autoencoder-model-architecture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 5.2.4 | K-means clustering for anomaly detection | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.4.k-means-clustering-for-anomaly-detection.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.5 | Autoencoders for anomaly detection | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.5.autoencoders-for-anomaly-detection.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.6 | Challenge autoencoders | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.6.challenge-autoencoders.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.7 | Solution autoencoders | [doc](Module%205%20-%20Anomaly%20Detection/5.2.7.solution-autoencoders.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.8 | Example assessment questions | [doc](Module%205%20-%20Anomaly%20Detection/5.2.8.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Anomaly Detection in Edge Impulse
 
@@ -434,11 +459,14 @@ This module covers why quantization is important for models running on embedded 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 5.3.1 | Anomaly detection in edge impulse | [video](https://www.youtube.com/watch?v=7Vz3S17nPWg&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=21) [slides](Module%205%20-%20Anomaly%20Detection/5.3.1.anomaly-detection-in-edge-impulse.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 5.3.2 | Industrial embedded machine learning demo | [video](https://www.youtube.com/watch?v=bo2mFzeft-o&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=22) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 5.3.3 | Project motion classification and anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.3.3.project-motion-classification-and-anomaly-detection.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ## TEMPLATE
 
