@@ -470,6 +470,83 @@ This module describes several approaches to anomaly detection and why we might w
 |----|-------------|:-----:|:-----------:|
 | 5.3.3 | Project motion classification and anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.3.3.project-motion-classification-and-anomaly-detection.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
+### Module 6: Image Classification with Deep Learning
+
+This module introduces the concept of image classification, why it is important in machine learning, and how it can be used to solve problems. Convolution and pooling operations are covered, which form the building blocks for convolutional neural networks (CNNs). Saliency maps and Grad-CAM are offered as two techniques for visualizing the inner workins of CNNs. Data augmentation is introduced as a method for generating new data from existing data to train a more robust model. Finally, transfer learning is shown as a way of reusing pre-trained models.
+
+#### Learning Objectives
+
+1. Describe the differences between image classification, object detection, and image segmentation
+2. Describe how embedded computer vision can be used to solve problems
+3. Describe how convolution and pooling operations are used to filter and downsample images
+4. Describe how convolutional neural networks differ from dense neural networks and how they can be used to solve computer vision problems
+
+#### Section 1: Image Classification
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 6.1.1 | What is computer vision? | [video](https://www.youtube.com/watch?v=fK8elevliKI&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=3) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.1.1.what-is-computer-vision.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.1.2 | Overview of digital images | [video](https://www.youtube.com/watch?v=BdLJ9Lk1I1M&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=4) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.1.2.overview-of-digital-images.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.1.3 | Dataset collection | [video](https://www.youtube.com/watch?v=uH9-Nhe8XGw&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=5) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.1.3.dataset-collection.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.1.4 | Overview of image classification | [video](https://www.youtube.com/watch?v=c20ditpjGjo&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=6) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.1.4.what-is-image-classification.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.1.5 | Training an image classifier with Keras | [video](https://www.youtube.com/watch?v=ygzvKFgUUTA&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=8) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 6.1.6 | Example assessment questions | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.1.6.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 2: Convolutional Neural Network (CNN)
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 6.2.1 | Image convolution | [video](https://www.youtube.com/watch?v=glSdYcpP_v8&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=14) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.1.image-convolution.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.2 | Pooling layer | [video](https://www.youtube.com/watch?v=E9TNa_6Askc&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=15) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.2.pooling-layer.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.3 | Convolutional neural network | [video](https://www.youtube.com/watch?v=30ikzV8Fi-0&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=16) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.3.convolutional-neural-network.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.4 | Cnn in keras | [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.4.cnn-in-keras.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.5 | Mapping features to labels | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.5.mapping-features-to-labels.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.6 | Training a CNN in Edge Impulse| [video](https://www.youtube.com/watch?v=fihp_CqlcZU&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=17) [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.6.training-a-cnn-in-edge-impulse.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 6.2.7 | Exploring convolutions | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.7.exploring-convolutions.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.8 | Convolutional neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.8.convolutional-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.9 | Challenge: CNN | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.9.challenge-cnn.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.10 | Solution: CNN | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.10.solution-cnn.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.11 | Example assessment questions | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.11.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 3: Analyzing CNNs, Data Augmentation, and Transfer Learning
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 6.3.1 | CNN visualizations | [video](https://www.youtube.com/watch?v=TmOgYgY0fTc&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=18) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.1.cnn-visualizations.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.2 | Data augmentation | [video](https://www.youtube.com/watch?v=AB4dLvW5mus&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=19) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.2.data-augmentation.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.3 | TensorFlow datasets | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.3.tensorflow-datasets.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.4 | Avoiding overfitting with data augmentation | [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.4.avoiding-overfitting-with-data-augmentation.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.5 | Dropout regularization | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.5.dropout-regularization.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.6 | Exploring loss functions and optimizers | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.6.exploring-loss-functions-and-optimizers.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.7 | Transfer learning and MobileNet | [video](https://www.youtube.com/watch?v=93eczumOpx8&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=20) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.7.transfer-learning-and-mobilenet.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.8 | Transfer learning with Edge Impulse | [video](https://www.youtube.com/watch?v=93eczumOpx8&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=20) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.7.transfer-learning-and-mobilenet.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 6.3.9 | Saliency and Grad-CAM | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.9.saliency-and-grad-cam.2.ipynb) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.10 | Image transforms demo | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.10.image-transforms-demo.2.ipynb) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.11 | Challenge: image data augmentation | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.11.challenge-image-data-augmentation.2.ipynb) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.12 | Solution: image data augmentation | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.12.solution-image-data-augmentation.2.ipynb) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.13 | Example assessment questions | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.13.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
 ## TEMPLATE
 
 ### Module [x]: [name]
