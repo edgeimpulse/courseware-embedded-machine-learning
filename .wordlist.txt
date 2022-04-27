@@ -31,3 +31,10 @@ autoencoder
 autoencoders
 jupyter
 mimii
+saliency
+CNN
+CNNs
+downsample
+mobilenet
+optimizer
+optimizers
