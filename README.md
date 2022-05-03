@@ -5,6 +5,8 @@
 
 Welcome to the Edge Impulse open courseware for embedded machine learning! This repository houses a collection of slides, reading material, project prompts, and sample questions to get you started creating your own embedded machine learning course. You will also have access to videos that cover much of the material. You are welcome to share these videos with your class either in the classroom or let students watch them on their own time.
 
+This repository is part of the Edge Impulse University Program. Please see this page for more information on how to join: [edgeimpulse.com/university](https://edgeimpulse.com/university).
+
 <!-- omit in toc -->
 ## How to Use This Repository
 
