@@ -38,3 +38,11 @@ downsample
 mobilenet
 optimizer
 optimizers
+pretrain
+pretrained
+FOMO
+Kelcey
+MFCC
+MFCCs
+spectrogram
+spectrograms
