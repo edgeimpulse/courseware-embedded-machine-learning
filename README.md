@@ -14,6 +14,8 @@ In general, content from [[3]](#3-slides-and-written-material-for-tinyml-coursew
 
 Content is divided into separate *modules*. Each module is assumed to be about a week's worth of material, and each section within a module contains about 60 minutes of presentation material. Modules also contain example quiz/test questions, practice problems, and hands-on assignments.
 
+If you would like to see more content than what is available in this repository, please refer to the [Harvard TinyMLedu site](http://tinyml.seas.harvard.edu/) for additional course material.
+
 ## License
 
 Unless otherwise noted, slides, sample questions, and project prompts are released under the [Creative Commons Attribution NonCommercial ShareAlike 4.0 International (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are welcome to use and modify them for educational purposes.
@@ -329,7 +331,7 @@ In this module, students will get an understanding of how data is collected and 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 3.3.7 | Motion detection project | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.3.7.motion-detection-project.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 3.3.7 | Project: Motion detection | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.3.7.motion-detection-project.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 3.3.8 | Example assessment questions | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.3.8.example-assessment-questions.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ### Module 4: Model Deployment
@@ -468,11 +470,11 @@ This module describes several approaches to anomaly detection and why we might w
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 5.3.3 | Project motion classification and anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.3.3.project-motion-classification-and-anomaly-detection.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 5.3.3 | Project: Motion classification and anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.3.3.project-motion-classification-and-anomaly-detection.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ### Module 6: Image Classification with Deep Learning
 
-This module introduces the concept of image classification, why it is important in machine learning, and how it can be used to solve problems. Convolution and pooling operations are covered, which form the building blocks for convolutional neural networks (CNNs). Saliency maps and Grad-CAM are offered as two techniques for visualizing the inner workins of CNNs. Data augmentation is introduced as a method for generating new data from existing data to train a more robust model. Finally, transfer learning is shown as a way of reusing pre-trained models.
+This module introduces the concept of image classification, why it is important in machine learning, and how it can be used to solve problems. Convolution and pooling operations are covered, which form the building blocks for convolutional neural networks (CNNs). Saliency maps and Grad-CAM are offered as two techniques for visualizing the inner gs of CNNs. Data augmentation is introduced as a method for generating new data from existing data to train a more robust model. Finally, transfer learning is shown as a way of reusing pretrained models.
 
 #### Learning Objectives
 
@@ -547,49 +549,131 @@ This module introduces the concept of image classification, why it is important 
 | 6.3.12 | Solution: image data augmentation | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.12.solution-image-data-augmentation.2.ipynb) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 6.3.13 | Example assessment questions | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.13.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
-## TEMPLATE
+### Module 7: Object Detection and Image Segmentation
 
-### Module [x]: [name]
-
-[description]
+In this module, we look at object detection, how it differs from image classification, and the unique set of problems it solves. We also briefly examine image segmentation and discuss constrained object detection. Finally, we look at responsible AI as it relates to computer vision and AI at large.
 
 #### Learning Objectives
 
-#### Section 1: [name]
+#### Section 1: Introduction to Object Detection
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 7.1.1 | Introduction to object detection | [video](https://www.youtube.com/watch?v=hV-YVzXEVYg&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=23) [slides](Module%207%20-%20Object%20Detection/7.1.1.introduction-to-object-detection.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.1.2 | Object detection performance metrics | [video](https://www.youtube.com/watch?v=4gE4TkGHm2E&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=24) [slides](Module%207%20-%20Object%20Detection/7.1.2.object-detection-performance-metrics.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.1.3 | Object detection models | [video](https://www.youtube.com/watch?v=Gqjx0b-QkYM&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=25) [slides](Module%207%20-%20Object%20Detection/7.1.3.object-detection-models.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.1.4 | Training an object detection model | [video](https://www.youtube.com/watch?v=HHebB8uiyPc&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=26) [slides](Module%207%20-%20Object%20Detection/7.1.4.training-an-object-detection-model.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.1.5 | Digging deeper into object detection | [doc](Module%207%20-%20Object%20Detection/7.1.5.digging-deeper-into-object-detection.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 7.1.6 | Example assessment questions | [doc](Module%207%20-%20Object%20Detection/7.1.6.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 2: [name]
+#### Section 2: Image Segmentation and Constrained Object Detection
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 7.2.1 | Image segmentation | [video](https://www.youtube.com/watch?v=LxAxH4f7EHo&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=28) [slides](Module%207%20-%20Object%20Detection/7.2.1.image-segmentation.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.2.2 | Multi-stage Inference Demo | [video](https://www.youtube.com/watch?v=i8eE0p49qQI&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=29) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.2.3 | Reusing Representations with Mat Kelcey | [video](https://www.youtube.com/watch?v=sjXUgK9YaSc&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=30) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.2.4 | tinyML Talks: Constrained Object Detection on Microcontrollers with FOMO | [video](https://www.youtube.com/watch?v=VzJZM5p24Tc) | |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 7.2.5 | Project: Deploy an object detection model | [doc](Module%207%20-%20Object%20Detection/7.2.5.project-deploy-an-object-detection-model.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 7.2.6 | Example assessment questions | [doc](Module%207%20-%20Object%20Detection/7.2.6.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
-#### Section 3: [name]
+#### Section 3: Responsible AI
 
 ##### Lecture Material
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 7.3.1 | Dataset collection | [slides](Module%207%20-%20Object%20Detection/7.3.1.dataset-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.2 | The many faces of bias | [doc](Module%207%20-%20Object%20Detection/7.3.2.the-many-faces-of-bias.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.3 | Biased datasets | [slides](Module%207%20-%20Object%20Detection/7.3.3.biased-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.4 | Model fairness | [slides](Module%207%20-%20Object%20Detection/7.3.4.model-fairness.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
+| 7.3.5 | Google what if tool | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%207%20-%20Object%20Detection/7.3.5.google-what-if-tool.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.6 | Example assessment questions | [doc](Module%207%20-%20Object%20Detection/7.3.6.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+### Module 8: Keyword Spotting
+
+In this module, we create a functioning keyword spotting (also known as "wake word detection") system. To do so, we must introduce several concepts unique to audio digital signal processing and combine it with image classification techniques.
+
+#### Learning Objectives
+
+#### Section 1: Audio Classification
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 8.1.1 | Introduction to audio classification | [slides](Module%208%20-%20Keyword%20Spotting/8.1.1.introduction-to-audio-classification.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.2 | Audio data capture | [slides](Module%208%20-%20Keyword%20Spotting/8.1.2.audio-data-capture.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.3 | What is keyword spotting | [slides](Module%208%20-%20Keyword%20Spotting/8.1.3.what-is-keyword-spotting.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.4 | Keyword spotting challenges | [slides](Module%208%20-%20Keyword%20Spotting/8.1.4.keyword-spotting-challenges.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.5 | Keyword spotting application architecture | [doc](Module%208%20-%20Keyword%20Spotting/8.1.5.keyword-spotting-application-architecture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.6 | Keyword spotting datasets | [slides](Module%208%20-%20Keyword%20Spotting/8.1.6.keyword-spotting-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.7 | Keyword spotting dataset creation | [doc](Module%208%20-%20Keyword%20Spotting/8.1.7.keyword-spotting-dataset-creation.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 8.1.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.1.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 2: Spectrograms and MFCCs
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 8.2.1 | Keyword spotting data collection | [slides](Module%208%20-%20Keyword%20Spotting/8.2.1.keyword-spotting-data-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.2 | Spectrograms and mfccs | [doc](Module%208%20-%20Keyword%20Spotting/8.2.2.spectrograms-and-mfccs.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.3 | Keyword spotting model | [slides](Module%208%20-%20Keyword%20Spotting/8.2.3.keyword-spotting-model.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.4 | Audio feature extraction | [slides](Module%208%20-%20Keyword%20Spotting/8.2.4.audio-feature-extraction.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.5 | Review of convolutional neural networks | [slides](Module%208%20-%20Keyword%20Spotting/8.2.5.review-of-convolutional-neural-networks.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.6 | Modifying the neural network | [slides](Module%208%20-%20Keyword%20Spotting/8.2.6.modifying-the-neural-network.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 8.2.7 | Spectrograms and mfccs | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%208%20-%20Keyword%20Spotting/8.2.7.spectrograms-and-mfccs.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.2.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+#### Section 3: Deploying a Keyword Spotting System
+
+##### Lecture Material
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 8.3.1 | Deploy audio classifier | [slides](Module%208%20-%20Keyword%20Spotting/8.3.1.deploy-audio-classifier.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.2 | Implementation strategies | [slides](Module%208%20-%20Keyword%20Spotting/8.3.2.implementation-strategies.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.3 | Metrics for keyword spotting | [slides](Module%208%20-%20Keyword%20Spotting/8.3.3.metrics-for-keyword-spotting.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.4 | Streaming audio | [slides](Module%208%20-%20Keyword%20Spotting/8.3.4.streaming-audio.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.5 | Cascade architectures | [slides](Module%208%20-%20Keyword%20Spotting/8.3.5.cascade-architectures.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.6 | Keyword spotting in the big picture | [doc](Module%208%20-%20Keyword%20Spotting/8.3.6.keyword-spotting-in-the-big-picture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+
+##### Exercises and Problems
+
+| ID | Description | Links | Attribution |
+|----|-------------|:-----:|:-----------:|
+| 8.3.7 | Project: Sound classification | [doc](Module%208%20-%20Keyword%20Spotting/8.3.7.project-sound-classification.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.3.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
 
 ## Attribution
 
