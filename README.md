@@ -12,9 +12,9 @@ This repository is part of the Edge Impulse University Program. Please see this 
 
 Please note that the content in this repository is not intended to be a full semester-long course. Rather, you are encouraged to pull from the modules, rearrange the ordering, make modifications, and use as you see fit to integrate the content into your own curriculum.
 
-For example, many of the lectures and examples from the TinyML Courseware (given by [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40)) go into detail about how TensorFlow Lite works along with advanced topics like quantization. Feel free to skip those sections if you would just like an overview of embedded machine learning and how to use it with Edge Impulse.
+For example, many of the lectures and examples from the TinyML Courseware (given by [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40)) go into detail about how TensorFlow Lite works along with advanced topics like quantization. Feel free to skip those sections if you would just like an overview of embedded machine learning and how to use it with Edge Impulse.
 
-In general, content from [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) cover theory and hands-on Python coding with Jupyter Notebooks to demonstrate these concepts. Content from [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) and [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) cover hands-on demonstrations and projects using Edge Impulse to deploy machine learning models to embedded systems.
+In general, content from [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) cover theory and hands-on Python coding with Jupyter Notebooks to demonstrate these concepts. Content from [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) and [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) cover hands-on demonstrations and projects using Edge Impulse to deploy machine learning models to embedded systems.
 
 Content is divided into separate *modules*. Each module is assumed to be about a week's worth of material, and each section within a module contains about 60 minutes of presentation material. Modules also contain example quiz/test questions, practice problems, and hands-on assignments.
 
@@ -192,15 +192,15 @@ This module provides an overview of machine learning and how it can be used to s
 |----|-------------|:-----:|:-----------:|
 | 1.1.1 | What is machine learning | [video](https://www.youtube.com/watch?v=RDGCGho5oaQ&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=3) [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.1.what-is-machine-learning.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 1.1.2 | Machine learning on embedded devices | [video](https://www.youtube.com/watch?v=Thg_EK9xxVk&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=6) [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.2.machine-learning-on-embedded-devices.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 1.1.3 | What is tiny machine learning | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.3.what-is-tiny-machine-learning.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 1.1.4 | Tinyml case studies | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.4.tinyml-case-studies.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 1.1.5 | How do we enable tinyml | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.5.how-do-we-enable-tinyml.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.3 | What is tiny machine learning | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.3.what-is-tiny-machine-learning.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.4 | Tinyml case studies | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.4.tinyml-case-studies.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.5 | How do we enable tinyml | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.5.how-do-we-enable-tinyml.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 1.1.7 | Example assessment questions | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.1.7 | Example assessment questions | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.1.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: Limitations and Ethics
 
@@ -209,9 +209,9 @@ This module provides an overview of machine learning and how it can be used to s
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 1.2.1 | Limitations and ethics | [video](https://www.youtube.com/watch?v=bjR9dwBNTNc&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=4) [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.1.limitations-and-ethics.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 1.2.2 | What am I building? | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.2.what-am-i-building.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 1.2.3 | Who am I building this for? | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.3.who-am-i-building-this-for.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 1.2.4 | What are the consequences? | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.4.what-are-the-consequences.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.2 | What am I building? | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.2.what-am-i-building.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.3 | Who am I building this for? | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.3.who-am-i-building-this-for.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.4 | What are the consequences? | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.4.what-are-the-consequences.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 1.2.5 | The limitations of machine learning | [blog](https://towardsdatascience.com/the-limitations-of-machine-learning-a00e0c3040c6) | |
 | 1.2.6 | The future of AI; bias amplification and algorithm determinism | [blog](https://digileaders.com/future-ai-bias-amplification-algorithmic-determinism/) | |
 
@@ -219,7 +219,7 @@ This module provides an overview of machine learning and how it can be used to s
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 1.2.7 | Example assessment questions | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.2.7 | Example assessment questions | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.2.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Getting Started with Colab
 
@@ -228,11 +228,11 @@ This module provides an overview of machine learning and how it can be used to s
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 1.3.1 | Getting Started with Google Colab | [video](https://www.youtube.com/watch?v=inN8seMm7UI) | |
-| 1.3.2 | Intro to colab | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.2.intro-to-colab.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.3.2 | Intro to colab | [slides](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.2.intro-to-colab.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 1.3.3 | Welcome to Colab! | [colab](https://colab.research.google.com/notebooks/intro.ipynb) | |
-| 1.3.4 | Colab tips | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.4.colab-tips.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.3.4 | Colab tips | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.4.colab-tips.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 1.3.5 | Why TensorFlow? | [video](https://www.youtube.com/watch?v=yjprpOoH5c8) | |
-| 1.3.6 | Sample tensorflow code | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.6.sample-tensorflow-code.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 1.3.6 | Sample tensorflow code | [doc](Module%201%20-%20Introduction%20to%20Machine%20Learning/1.3.6.sample-tensorflow-code.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
@@ -261,23 +261,23 @@ This module provides an overview of neural networks and how they can be used to 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.1.1 | The machine learning paradigm | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.1.the-machine-learning-paradigm.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.2 | Finding patterns | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.2.finding-patterns.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.3 | Thinking about loss | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.3.thinking-about-loss.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.4 | Minimizing loss | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.4.minimizing-loss.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.5 | First neural network | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.5.first-neural-network.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.6 | More neural networks | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.6.more-neural-networks.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.7 | Neural networks in action | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.7.neural-networks-in-action.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.1 | The machine learning paradigm | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.1.the-machine-learning-paradigm.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.2 | Finding patterns | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.2.finding-patterns.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.3 | Thinking about loss | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.3.thinking-about-loss.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.4 | Minimizing loss | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.4.minimizing-loss.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.5 | First neural network | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.5.first-neural-network.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.6 | More neural networks | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.6.more-neural-networks.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.7 | Neural networks in action | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.7.neural-networks-in-action.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.1.8 | Exploring loss | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.8.exploring-loss.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.9 | Minimizing loss | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.9.minimizing-loss.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.10 | Linear regression | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.10.linear-regression.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.11 | Solution linear regression | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.11.solution-linear-regression.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.1.12 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.12.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.8 | Exploring loss | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.8.exploring-loss.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.9 | Minimizing loss | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.9.minimizing-loss.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.10 | Linear regression | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.10.linear-regression.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.11 | Solution linear regression | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.11.solution-linear-regression.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.1.12 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.1.12.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: Building Blocks of Deep Learning
 
@@ -286,23 +286,23 @@ This module provides an overview of neural networks and how they can be used to 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 2.2.1 | Introduction to neural networks | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.1.introduction-to-neural-networks.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.2 | Initialization and learning | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.2.initialization-and-learning.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.3 | Understanding neurons in code | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.3.understanding-neurons-in-code.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.4 | Neural network in code | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.4.neural-network-in-code.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.5 | Introduction to classification | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.5.introduction-to-classification.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.6 | Training validation and test data | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.6.training-validation-and-test-data.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.7 | Realities of coding | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.7.realities-of-coding.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.2 | Initialization and learning | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.2.initialization-and-learning.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.3 | Understanding neurons in code | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.3.understanding-neurons-in-code.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.4 | Neural network in code | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.4.neural-network-in-code.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.5 | Introduction to classification | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.5.introduction-to-classification.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.6 | Training validation and test data | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.6.training-validation-and-test-data.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.7 | Realities of coding | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.7.realities-of-coding.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.2.8 | Neurons in action | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.8.neurons-in-action.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.9 | Multi layer neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.9.multi-layer-neural-network.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.10 | Dense neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.10.dense-neural-network.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.11 | Challenge: explore neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.11.challenge-explore-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.12 | Solution: explore neural networks | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.12.solution-explore-neural-networks.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.2.13 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.13.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.8 | Neurons in action | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.8.neurons-in-action.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.9 | Multi layer neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.9.multi-layer-neural-network.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.10 | Dense neural network | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.10.dense-neural-network.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.11 | Challenge: explore neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.11.challenge-explore-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.12 | Solution: explore neural networks | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.12.solution-explore-neural-networks.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.2.13 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.2.13.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Embedded Machine Learning Challenges
 
@@ -310,16 +310,16 @@ This module provides an overview of neural networks and how they can be used to 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.3.1 | Challenges for tinyml a | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.1.challenges-for-tinyml-a.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.3.2 | Challenges for tinyml b | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.2.challenges-for-tinyml-b.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.3.3 | Challenges for tinyml c | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.3.challenges-for-tinyml-c.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 2.3.4 | Challenges for tinyml d | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.4.challenges-for-tinyml-d.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.1 | Challenges for tinyml a | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.1.challenges-for-tinyml-a.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.2 | Challenges for tinyml b | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.2.challenges-for-tinyml-b.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.3 | Challenges for tinyml c | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.3.challenges-for-tinyml-c.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.4 | Challenges for tinyml d | [slides](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.4.challenges-for-tinyml-d.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 2.3.5 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.5.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 2.3.5 | Example assessment questions | [doc](Module%202%20-%20Getting%20Started%20with%20Deep%20Learning/2.3.5.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ### Module 3: Machine Learning Workflow
 
@@ -343,17 +343,17 @@ In this module, students will get an understanding of how data is collected and 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 3.1.1 | Tinyml applications | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.1.1.tinyml-applications.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.1.2 | Role of sensors | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.2.role-of-sensors.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.1.3 | Machine learning lifecycle | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.1.3.machine-learning-lifecycle.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.1.4 | Machine learning lifecycle | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.4.machine-learning-lifecycle.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.1.5 | Machine learning workflow | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.5.machine-learning-workflow.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.1 | Tinyml applications | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.1.1.tinyml-applications.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.2 | Role of sensors | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.2.role-of-sensors.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.3 | Machine learning lifecycle | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.1.3.machine-learning-lifecycle.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.4 | Machine learning lifecycle | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.4.machine-learning-lifecycle.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.5 | Machine learning workflow | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.5.machine-learning-workflow.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 3.1.6 | Example assessment questions | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.6.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.1.6 | Example assessment questions | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.1.6.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: Data Collection
 
@@ -361,10 +361,10 @@ In this module, students will get an understanding of how data is collected and 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 3.2.1 | Introduction to data engineering | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.2.1.introduction-to-data-engineering.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.2.2 | What is data engineering | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.2.what-is-data-engineering.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.2.3 | Using existing datasets | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.3.using-existing-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 3.2.4 | Responsible data collection | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.4.responsible-data-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.1 | Introduction to data engineering | [doc](Module%203%20-%20Machine%20Learning%20Workflow/3.2.1.introduction-to-data-engineering.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.2 | What is data engineering | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.2.what-is-data-engineering.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.3 | Using existing datasets | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.3.using-existing-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 3.2.4 | Responsible data collection | [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.4.responsible-data-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 3.2.5 | Getting started with edge impulse | [video](https://www.youtube.com/watch?v=lVr4pGeSQKg&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=8) [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.5.getting-started-with-edge-impulse.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 3.2.6 | Data collection with edge impulse | [video](https://www.youtube.com/watch?v=IiJKqHRRuD4&list=PL7VEa1KauMQqZFj_nWRfsCZNXaBbkuurG&index=9) [slides](Module%203%20-%20Machine%20Learning%20Workflow/3.2.6.data-collection-with-edge-impulse.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
@@ -412,18 +412,18 @@ This module covers why quantization is important for models running on embedded 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 4.1.1 | Why quantization | [doc](Module%204%20-%20Model%20Deployment/4.1.1.why-quantization.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.1.2 | Post-training quantization | [slides](Module%204%20-%20Model%20Deployment/4.1.2.post-training-quantization.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.1.3 | Quantization-aware training | [slides](Module%204%20-%20Model%20Deployment/4.1.3.quantization-aware-training.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.1.4 | TensorFlow vs TensorFlow Lite | [slides](Module%204%20-%20Model%20Deployment/4.1.4.tensorflow-vs-tensorflow-lite.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.1.5 | TensorFlow computational graph | [doc](Module%204%20-%20Model%20Deployment/4.1.5.tensorflow-computational-graph.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.1 | Why quantization | [doc](Module%204%20-%20Model%20Deployment/4.1.1.why-quantization.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.2 | Post-training quantization | [slides](Module%204%20-%20Model%20Deployment/4.1.2.post-training-quantization.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.3 | Quantization-aware training | [slides](Module%204%20-%20Model%20Deployment/4.1.3.quantization-aware-training.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.4 | TensorFlow vs TensorFlow Lite | [slides](Module%204%20-%20Model%20Deployment/4.1.4.tensorflow-vs-tensorflow-lite.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.5 | TensorFlow computational graph | [doc](Module%204%20-%20Model%20Deployment/4.1.5.tensorflow-computational-graph.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 4.1.6 | Post-training quantization | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%204%20-%20Model%20Deployment/4.1.6.post-training-quantization.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.1.7 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.1.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.6 | Post-training quantization | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%204%20-%20Model%20Deployment/4.1.6.post-training-quantization.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.1.7 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.1.7.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: Embedded Microcontrollers
 
@@ -431,21 +431,21 @@ This module covers why quantization is important for models running on embedded 
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 4.2.1 | Embedded systems | [slides](Module%204%20-%20Model%20Deployment/4.2.1.embedded-systems.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.2 | Diversity of embedded systems | [doc](Module%204%20-%20Model%20Deployment/4.2.2.diversity-of-embedded-systems.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.3 | Embedded computing hardware | [slides](Module%204%20-%20Model%20Deployment/4.2.3.embedded-computing-hardware.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.4 | Embedded microcontrollers | [doc](Module%204%20-%20Model%20Deployment/4.2.4.embedded-microcontrollers.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.5 | TinyML kit peripherals | [doc](Module%204%20-%20Model%20Deployment/4.2.5.tinyml-kit-peripherals.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.6 | TinyML kit peripherals | [slides](Module%204%20-%20Model%20Deployment/4.2.6.tinyml-kit-peripherals.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.7 | Arduino core, frameworks, mbedOS, and bare metal | [doc](Module%204%20-%20Model%20Deployment/4.2.7.arduino-core-frameworks-mbedos-and-bare-metal.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.8 | Embedded ML software | [slides](Module%204%20-%20Model%20Deployment/4.2.8.embedded-ml-software.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.1 | Embedded systems | [slides](Module%204%20-%20Model%20Deployment/4.2.1.embedded-systems.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.2 | Diversity of embedded systems | [doc](Module%204%20-%20Model%20Deployment/4.2.2.diversity-of-embedded-systems.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.3 | Embedded computing hardware | [slides](Module%204%20-%20Model%20Deployment/4.2.3.embedded-computing-hardware.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.4 | Embedded microcontrollers | [doc](Module%204%20-%20Model%20Deployment/4.2.4.embedded-microcontrollers.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.5 | TinyML kit peripherals | [doc](Module%204%20-%20Model%20Deployment/4.2.5.tinyml-kit-peripherals.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.6 | TinyML kit peripherals | [slides](Module%204%20-%20Model%20Deployment/4.2.6.tinyml-kit-peripherals.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.7 | Arduino core, frameworks, mbedOS, and bare metal | [doc](Module%204%20-%20Model%20Deployment/4.2.7.arduino-core-frameworks-mbedos-and-bare-metal.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.8 | Embedded ML software | [slides](Module%204%20-%20Model%20Deployment/4.2.8.embedded-ml-software.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 4.2.8 | Embedded ml software | [slides](Module%204%20-%20Model%20Deployment/4.2.8.embedded-ml-software.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 4.2.9 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.2.9.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.8 | Embedded ml software | [slides](Module%204%20-%20Model%20Deployment/4.2.8.embedded-ml-software.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 4.2.9 | Example assessment questions | [doc](Module%204%20-%20Model%20Deployment/4.2.9.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Deploying a Model to an Arduino Board
 
@@ -483,19 +483,19 @@ This module describes several approaches to anomaly detection and why we might w
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 5.1.1 | Introduction to anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.1.1.introduction-to-anomaly-detection.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.1.2 | What is anomaly detection? | [slides](Module%205%20-%20Anomaly%20Detection/5.1.2.what-is-anomaly-detection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.1.3 | Challenges with anomaly detection | [slides](Module%205%20-%20Anomaly%20Detection/5.1.3.challenges-with-anomaly-detection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.1.4 | Industry and TinyML | [doc](Module%205%20-%20Anomaly%20Detection/5.1.4.industry-and-tinyml.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.1.5 | Anomaly detection datasets | [slides](Module%205%20-%20Anomaly%20Detection/5.1.5.anomaly-detection-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.1.6 | MIMII dataset paper | [doc](Module%205%20-%20Anomaly%20Detection/5.1.6.mimii-dataset-paper.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.1.7 | Real and synthetic data | [doc](Module%205%20-%20Anomaly%20Detection/5.1.7.real-and-synthetic-data.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.1 | Introduction to anomaly detection | [doc](Module%205%20-%20Anomaly%20Detection/5.1.1.introduction-to-anomaly-detection.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.2 | What is anomaly detection? | [slides](Module%205%20-%20Anomaly%20Detection/5.1.2.what-is-anomaly-detection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.3 | Challenges with anomaly detection | [slides](Module%205%20-%20Anomaly%20Detection/5.1.3.challenges-with-anomaly-detection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.4 | Industry and TinyML | [doc](Module%205%20-%20Anomaly%20Detection/5.1.4.industry-and-tinyml.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.5 | Anomaly detection datasets | [slides](Module%205%20-%20Anomaly%20Detection/5.1.5.anomaly-detection-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.6 | MIMII dataset paper | [doc](Module%205%20-%20Anomaly%20Detection/5.1.6.mimii-dataset-paper.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.7 | Real and synthetic data | [doc](Module%205%20-%20Anomaly%20Detection/5.1.7.real-and-synthetic-data.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 5.1.8 | Example assessment questions | [doc](Module%205%20-%20Anomaly%20Detection/5.1.8.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.1.8 | Example assessment questions | [doc](Module%205%20-%20Anomaly%20Detection/5.1.8.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: K-means Clustering and Autoencoders
 
@@ -504,18 +504,18 @@ This module describes several approaches to anomaly detection and why we might w
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 5.2.1 | K-means clustering | [slides](Module%205%20-%20Anomaly%20Detection/5.2.1.k-means-clustering.0.pptx?raw=true) |  |
-| 5.2.2 | Autoencoders | [slides](Module%205%20-%20Anomaly%20Detection/5.2.2.autoencoders.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.2.3 | Autoencoder model architecture | [doc](Module%205%20-%20Anomaly%20Detection/5.2.3.autoencoder-model-architecture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.2 | Autoencoders | [slides](Module%205%20-%20Anomaly%20Detection/5.2.2.autoencoders.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.3 | Autoencoder model architecture | [doc](Module%205%20-%20Anomaly%20Detection/5.2.3.autoencoder-model-architecture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 5.2.4 | K-means clustering for anomaly detection | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.4.k-means-clustering-for-anomaly-detection.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.2.5 | Autoencoders for anomaly detection | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.5.autoencoders-for-anomaly-detection.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.2.6 | Challenge autoencoders | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.6.challenge-autoencoders.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.2.7 | Solution autoencoders | [doc](Module%205%20-%20Anomaly%20Detection/5.2.7.solution-autoencoders.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 5.2.8 | Example assessment questions | [doc](Module%205%20-%20Anomaly%20Detection/5.2.8.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.4 | K-means clustering for anomaly detection | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.4.k-means-clustering-for-anomaly-detection.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.5 | Autoencoders for anomaly detection | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.5.autoencoders-for-anomaly-detection.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.6 | Challenge autoencoders | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%205%20-%20Anomaly%20Detection/5.2.6.challenge-autoencoders.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.7 | Solution autoencoders | [doc](Module%205%20-%20Anomaly%20Detection/5.2.7.solution-autoencoders.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 5.2.8 | Example assessment questions | [doc](Module%205%20-%20Anomaly%20Detection/5.2.8.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Anomaly Detection in Edge Impulse
 
@@ -570,18 +570,18 @@ This module introduces the concept of image classification, why it is important 
 | 6.2.1 | Image convolution | [video](https://www.youtube.com/watch?v=glSdYcpP_v8&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=14) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.1.image-convolution.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 6.2.2 | Pooling layer | [video](https://www.youtube.com/watch?v=E9TNa_6Askc&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=15) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.2.pooling-layer.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 6.2.3 | Convolutional neural network | [video](https://www.youtube.com/watch?v=30ikzV8Fi-0&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=16) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.3.convolutional-neural-network.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 6.2.4 | CNN in keras | [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.4.cnn-in-keras.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.2.5 | Mapping features to labels | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.5.mapping-features-to-labels.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.4 | CNN in keras | [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.4.cnn-in-keras.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.5 | Mapping features to labels | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.5.mapping-features-to-labels.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 6.2.6 | Training a CNN in Edge Impulse| [video](https://www.youtube.com/watch?v=fihp_CqlcZU&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=17) [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.6.training-a-cnn-in-edge-impulse.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 6.2.7 | Exploring convolutions | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.7.exploring-convolutions.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.2.8 | Convolutional neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.8.convolutional-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.2.9 | Challenge: CNN | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.9.challenge-cnn.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.2.10 | Solution: CNN | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.10.solution-cnn.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.7 | Exploring convolutions | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.7.exploring-convolutions.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.8 | Convolutional neural networks | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.8.convolutional-neural-networks.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.9 | Challenge: CNN | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.9.challenge-cnn.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.2.10 | Solution: CNN | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.10.solution-cnn.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 6.2.11 | Example assessment questions | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.2.11.example-assessment-questions.2.docx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Analyzing CNNs, Data Augmentation, and Transfer Learning
@@ -592,10 +592,10 @@ This module introduces the concept of image classification, why it is important 
 |----|-------------|:-----:|:-----------:|
 | 6.3.1 | CNN visualizations | [video](https://www.youtube.com/watch?v=TmOgYgY0fTc&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=18) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.1.cnn-visualizations.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 6.3.2 | Data augmentation | [video](https://www.youtube.com/watch?v=AB4dLvW5mus&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=19) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.2.data-augmentation.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 6.3.3 | TensorFlow datasets | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.3.tensorflow-datasets.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.3.4 | Avoiding overfitting with data augmentation | [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.4.avoiding-overfitting-with-data-augmentation.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.3.5 | Dropout regularization | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.5.dropout-regularization.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 6.3.6 | Exploring loss functions and optimizers | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.6.exploring-loss-functions-and-optimizers.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.3 | TensorFlow datasets | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.3.tensorflow-datasets.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.4 | Avoiding overfitting with data augmentation | [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.4.avoiding-overfitting-with-data-augmentation.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.5 | Dropout regularization | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.5.dropout-regularization.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 6.3.6 | Exploring loss functions and optimizers | [doc](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.6.exploring-loss-functions-and-optimizers.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 6.3.7 | Transfer learning and MobileNet | [video](https://www.youtube.com/watch?v=93eczumOpx8&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=20) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.7.transfer-learning-and-mobilenet.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 6.3.8 | Transfer learning with Edge Impulse | [video](https://www.youtube.com/watch?v=93eczumOpx8&list=PL7VEa1KauMQqQw7duQEB6GSJwDS06dtKU&index=20) [slides](Module%206%20-%20Image%20Classification%20with%20Deep%20Learning/6.3.7.transfer-learning-and-mobilenet.2.pptx?raw=true) | [[2]](#2-slides-and-written-material-for-computer-vision-with-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 
@@ -666,17 +666,17 @@ In this module, we look at object detection, how it differs from image classific
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 7.3.1 | Dataset collection | [slides](Module%207%20-%20Object%20Detection/7.3.1.dataset-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 7.3.2 | The many faces of bias | [doc](Module%207%20-%20Object%20Detection/7.3.2.the-many-faces-of-bias.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 7.3.3 | Biased datasets | [slides](Module%207%20-%20Object%20Detection/7.3.3.biased-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 7.3.4 | Model fairness | [slides](Module%207%20-%20Object%20Detection/7.3.4.model-fairness.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.1 | Dataset collection | [slides](Module%207%20-%20Object%20Detection/7.3.1.dataset-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.2 | The many faces of bias | [doc](Module%207%20-%20Object%20Detection/7.3.2.the-many-faces-of-bias.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.3 | Biased datasets | [slides](Module%207%20-%20Object%20Detection/7.3.3.biased-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.4 | Model fairness | [slides](Module%207%20-%20Object%20Detection/7.3.4.model-fairness.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 7.3.5 | Google what if tool | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%207%20-%20Object%20Detection/7.3.5.google-what-if-tool.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 7.3.6 | Example assessment questions | [doc](Module%207%20-%20Object%20Detection/7.3.6.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.5 | Google what if tool | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%207%20-%20Object%20Detection/7.3.5.google-what-if-tool.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 7.3.6 | Example assessment questions | [doc](Module%207%20-%20Object%20Detection/7.3.6.example-assessment-questions.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ### Module 8: Keyword Spotting
 
@@ -697,17 +697,17 @@ In this module, we create a functioning keyword spotting (also known as "wake wo
 |----|-------------|:-----:|:-----------:|
 | 8.1.1 | Introduction to audio classification | [slides](Module%208%20-%20Keyword%20Spotting/8.1.1.introduction-to-audio-classification.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 8.1.2 | Audio data capture | [slides](Module%208%20-%20Keyword%20Spotting/8.1.2.audio-data-capture.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 8.1.3 | What is keyword spotting | [slides](Module%208%20-%20Keyword%20Spotting/8.1.3.what-is-keyword-spotting.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.1.4 | Keyword spotting challenges | [slides](Module%208%20-%20Keyword%20Spotting/8.1.4.keyword-spotting-challenges.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.1.5 | Keyword spotting application architecture | [doc](Module%208%20-%20Keyword%20Spotting/8.1.5.keyword-spotting-application-architecture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.1.6 | Keyword spotting datasets | [slides](Module%208%20-%20Keyword%20Spotting/8.1.6.keyword-spotting-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.1.7 | Keyword spotting dataset creation | [doc](Module%208%20-%20Keyword%20Spotting/8.1.7.keyword-spotting-dataset-creation.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.3 | What is keyword spotting | [slides](Module%208%20-%20Keyword%20Spotting/8.1.3.what-is-keyword-spotting.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.4 | Keyword spotting challenges | [slides](Module%208%20-%20Keyword%20Spotting/8.1.4.keyword-spotting-challenges.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.5 | Keyword spotting application architecture | [doc](Module%208%20-%20Keyword%20Spotting/8.1.5.keyword-spotting-application-architecture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.6 | Keyword spotting datasets | [slides](Module%208%20-%20Keyword%20Spotting/8.1.6.keyword-spotting-datasets.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.7 | Keyword spotting dataset creation | [doc](Module%208%20-%20Keyword%20Spotting/8.1.7.keyword-spotting-dataset-creation.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 8.1.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.1.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.1.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.1.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 2: Spectrograms and MFCCs
 
@@ -715,9 +715,9 @@ In this module, we create a functioning keyword spotting (also known as "wake wo
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 8.2.1 | Keyword spotting data collection | [slides](Module%208%20-%20Keyword%20Spotting/8.2.1.keyword-spotting-data-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.2.2 | Spectrograms and mfccs | [doc](Module%208%20-%20Keyword%20Spotting/8.2.2.spectrograms-and-mfccs.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.2.3 | Keyword spotting model | [slides](Module%208%20-%20Keyword%20Spotting/8.2.3.keyword-spotting-model.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.1 | Keyword spotting data collection | [slides](Module%208%20-%20Keyword%20Spotting/8.2.1.keyword-spotting-data-collection.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.2 | Spectrograms and mfccs | [doc](Module%208%20-%20Keyword%20Spotting/8.2.2.spectrograms-and-mfccs.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.3 | Keyword spotting model | [slides](Module%208%20-%20Keyword%20Spotting/8.2.3.keyword-spotting-model.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 | 8.2.4 | Audio feature extraction | [slides](Module%208%20-%20Keyword%20Spotting/8.2.4.audio-feature-extraction.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 8.2.5 | Review of convolutional neural networks | [slides](Module%208%20-%20Keyword%20Spotting/8.2.5.review-of-convolutional-neural-networks.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 8.2.6 | Modifying the neural network | [slides](Module%208%20-%20Keyword%20Spotting/8.2.6.modifying-the-neural-network.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
@@ -726,8 +726,8 @@ In this module, we create a functioning keyword spotting (also known as "wake wo
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
-| 8.2.7 | Spectrograms and mfccs | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%208%20-%20Keyword%20Spotting/8.2.7.spectrograms-and-mfccs.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.2.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.2.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.7 | Spectrograms and mfccs | [colab](https://colab.research.google.com/github/edgeimpulse/courseware-embedded-machine-learning/blob/main/Module%208%20-%20Keyword%20Spotting/8.2.7.spectrograms-and-mfccs.3.ipynb) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.2.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.2.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 #### Section 3: Deploying a Keyword Spotting System
 
@@ -737,17 +737,17 @@ In this module, we create a functioning keyword spotting (also known as "wake wo
 |----|-------------|:-----:|:-----------:|
 | 8.3.1 | Deploy audio classifier | [slides](Module%208%20-%20Keyword%20Spotting/8.3.1.deploy-audio-classifier.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
 | 8.3.2 | Implementation strategies | [slides](Module%208%20-%20Keyword%20Spotting/8.3.2.implementation-strategies.1.pptx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 8.3.3 | Metrics for keyword spotting | [slides](Module%208%20-%20Keyword%20Spotting/8.3.3.metrics-for-keyword-spotting.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.3.4 | Streaming audio | [slides](Module%208%20-%20Keyword%20Spotting/8.3.4.streaming-audio.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.3.5 | Cascade architectures | [slides](Module%208%20-%20Keyword%20Spotting/8.3.5.cascade-architectures.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
-| 8.3.6 | Keyword spotting in the big picture | [doc](Module%208%20-%20Keyword%20Spotting/8.3.6.keyword-spotting-in-the-big-picture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.3 | Metrics for keyword spotting | [slides](Module%208%20-%20Keyword%20Spotting/8.3.3.metrics-for-keyword-spotting.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.4 | Streaming audio | [slides](Module%208%20-%20Keyword%20Spotting/8.3.4.streaming-audio.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.5 | Cascade architectures | [slides](Module%208%20-%20Keyword%20Spotting/8.3.5.cascade-architectures.3.pptx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.6 | Keyword spotting in the big picture | [doc](Module%208%20-%20Keyword%20Spotting/8.3.6.keyword-spotting-in-the-big-picture.3.docx?raw=true) | [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 ##### Exercises and Problems
 
 | ID | Description | Links | Attribution |
 |----|-------------|:-----:|:-----------:|
 | 8.3.7 | Project: Sound classification | [doc](Module%208%20-%20Keyword%20Spotting/8.3.7.project-sound-classification.1.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) |
-| 8.3.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.3.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-tinymlx-is-licensed-under-cc-by-nc-sa-40) |
+| 8.3.8 | Example assessment questions | [doc](Module%208%20-%20Keyword%20Spotting/8.3.8.example-assessment-questions.3.docx?raw=true) | [[1]](#1-slides-and-written-material-for-introduction-to-embedded-machine-learning-by-edge-impulse-is-licensed-under-cc-by-nc-sa-40) [[3]](#3-slides-and-written-material-for-tinyml-courseware-by-harvard-university-is-licensed-under-cc-by-nc-sa-40) |
 
 <!-- omit in toc -->
 ## Attribution
